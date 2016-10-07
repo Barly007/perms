@@ -14,6 +14,7 @@
         <style>
             html, body {
                 background-color: #fff;
+                background-image: url('images/b1.jpg');
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -46,7 +47,8 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 44px;
+                font-weight:bold;
             }
 
             .links > a {
@@ -75,7 +77,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome Page : Test Application
+                    dev.eventgiant.co.uk
                 </div>
             </div>
         </div>

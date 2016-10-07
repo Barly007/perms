@@ -30,7 +30,9 @@
                       {{ ($errors->has('photo_file_id')) ? $errors->first('photo_file_id') : '' }} <br>
 
                       <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                      <input type="submit" name="name" value="Update" class="btn btn-primary">
+                      
+                      <input type="submit" name="name" value="Update" class="btn btn-danger">
+                      <a href="{{ url('/photos') }}" class="btn btn-primary">Cancel</a>
                     </form>
                 </div>
             </div>

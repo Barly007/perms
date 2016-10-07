@@ -14,7 +14,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading"><b>Create a photo entry...</b></div>
+                <div class="panel-heading"><b>Create a photo entry...</b><a href="{{ url('/photos') }}" class="pull-right">Cancel</a></div>
 
                 <div class="panel-body">
                     <h2>Add new photo</h2>

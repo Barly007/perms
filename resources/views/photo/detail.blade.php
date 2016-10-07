@@ -7,7 +7,7 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading"><b>Photo Detail...</b>
-                  <a href="{{ url('/photos') }}" class="pull-right">All Photos</a>
+                  <a href="{{ url('/photos') }}" class="pull-right">Back to all photos</a>
                 </div>
 
                 <div class="panel-body">

@@ -7,7 +7,7 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading"><b>Show all photos...</b>
-                  <a href="{{ url('/photos/create') }}" class="pull-right">Create</a>
+                  <a href="{{ url('/photos/create') }}" class="pull-right">Create a new photo</a>
                 </div>
 
                 <div class="panel-body">
